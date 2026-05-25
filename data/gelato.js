@@ -1,7 +1,7 @@
 window.blueCoinsData = window.blueCoinsData || [];
 
 const gelatoCoins = {
-    zoneName: "Plage Gelato",
+    zoneName: "Gelato-les-Flots",
     folder: "gelato",
     mapImage: "map.jpg",
     mapText: "Meilleur épisode pour les pièces bleues : 4<br>Pièces 22 et 29 uniquement dans l'épisode 6<br>Pièce 25 plus facilement accessible dans l'épisode 6<br>Meilleur épisode pour les 100 pièces : 8",
