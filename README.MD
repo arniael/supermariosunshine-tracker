@@ -36,7 +36,7 @@ Maps : [Branflakv](https://www.reddit.com/r/NintendoSwitch/comments/j56j95/blue_
 
 ## 👩‍💻 À propos de l'auteure
 
-Je suis **Arniael** (aussi connue sous Juste Une Dev sur Github). Cet outil a été développé après avoir regardé [Edward](https://www.youtube.com/@edwardretrodecouverte) en [stream](https://www.twitch.tv/edward_retrodecouverte) essayer de faire les 120 soleils, afin d'avoir un outil permettant de suivre sa progression des 240 pièces bleues dans Super Mario Sunshine, puisque le jeu ne le permet pas et qu'aucun tracker existant (à ma connaissance) et en français n'existe dans cette forme incluant screenshots et aide textuelle. 
+Je suis **Arniael**. Cet outil a été développé après avoir regardé [Edward](https://www.youtube.com/@edwardretrodecouverte) en [stream](https://www.twitch.tv/edward_retrodecouverte) essayer de faire les 120 soleils, afin d'avoir un outil permettant de suivre sa progression des 240 pièces bleues dans Super Mario Sunshine, puisque le jeu ne le permet pas et qu'aucun tracker existant (à ma connaissance) et en français n'existe dans cette forme incluant screenshots et aide textuelle. 
 
 ---
 
