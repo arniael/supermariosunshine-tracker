@@ -23,7 +23,9 @@ Clonez ce dépôt, téléchargez les fichiers ou récupérez juste la dernière 
 
 Ouvrez simplement index.html dans votre navigateur préféré (une fois les fichiers dézippés). Aucun serveur n'est requis, tout tourne en local.
 
-Virustotal de la dernière release : [Rapport VirusTotal de la 1.0](https://www.virustotal.com/gui/file/fcf9ab4eeaa4c911dd97b5c825b914fd30eb62a2245bd20b37eb4a16020de1bd?nocache=1)
+Virustotal de la dernière release : [Rapport VirusTotal de la 1.2](https://www.virustotal.com/gui/file/172186090de4f839093aac93c870a735f99f19b0e09c16e28612a74b96d84144)
+
+Checksum de la release 1.2 : 172186090DE4F839093AAC93C870A735F99F19B0E09C16E28612A74B96D84144
 
 ---
 
