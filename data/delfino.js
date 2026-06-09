@@ -8,103 +8,103 @@ const delfinoCoins = {
     coins: [
         {
             id: "delfino-01",
-            episode: "Place Delfino",
-            description: "Graffiti « M » près du canon menant au parc Pinna"
+            episode: "Zone Place",
+            description: "Graffiti M près du canon menant au parc Pinna."
         },
         {
             id: "delfino-02",
-            episode: "Place Delfino",
-            description: "Graffiti « M » derrière une boîte près du hangar à bateaux"
+            episode: "Zone Place",
+            description: "Graffiti M derrière une boîte près du hangar à bateaux."
         },
         {
             id: "delfino-03",
-            episode: "Place Delfino",
-            description: "Graffiti « M » en face de la Porte Soleils"
+            episode: "Zone Place",
+            description: "Graffiti M en face de la Porte Soleil."
         },
         {
             id: "delfino-04",
-            episode: "Place Delfino",
-            description: "À l'aide de la Turbo Buse, foncer dans la barrière en bois située au pied de l'un des piliers nord-est"
+            episode: "Zone Place",
+            description: "Foncer dans la barrière en bois située au pied de l'un des piliers nord-est. Turbobuse nécessaire."
         },
         {
             id: "delfino-05",
-            episode: "Place Delfino",
-            description: "Dans les égouts"
+            episode: "Zone Place",
+            description: "Dans les égouts."
         },
         {
             id: "delfino-06",
-            episode: "Place Delfino",
-            description: "Dans les égouts"
+            episode: "Zone Place",
+            description: "Dans les égouts."
         },
         {
             id: "delfino-07",
-            episode: "Place Delfino",
-            description: "Dans les égouts"
+            episode: "Zone Place",
+            description: "Dans les égouts."
         },
         {
             id: "delfino-08",
-            episode: "Place Delfino",
-            description: "Arroser l'oiseau bleu"
+            episode: "Zone Place",
+            description: "Arroser l'oiseau bleu."
         },
         {
             id: "delfino-09",
-            episode: "Place Delfino",
-            description: "Arroser l'oiseau bleu"
+            episode: "Zone Place",
+            description: "Arroser l'oiseau bleu."
         },
         {
             id: "delfino-10",
-            episode: "Place Delfino",
-            description: "Apporter trois bananes dans le panier"
+            episode: "Zone Place",
+            description: "Apporter trois bananes dans le panier."
         },
         {
             id: "delfino-11",
-            episode: "Place Delfino",
-            description: "Apporter trois ananas dans le panier"
+            episode: "Zone Place",
+            description: "Apporter trois ananas dans le panier."
         },
         {
             id: "delfino-12",
-            episode: "Place Delfino",
-            description: "Apporter trois noix de coco dans le panier"
+            episode: "Zone Place",
+            description: "Apporter trois noix de coco dans le panier."
         },
         {
             id: "delfino-13",
-            episode: "Place Delfino",
-            description: "Apporter trois durian dans le panier"
+            episode: "Zone Place",
+            description: "Apporter trois durian dans le panier."
         },
         {
             id: "delfino-14",
-            episode: "Place Delfino",
-            description: "Dans le clocher sud-est, accessible par une ouverture située à l'arrière de la tour"
+            episode: "Zone Place",
+            description: "Dans le clocher sud-est, accessible par une ouverture située à l'arrière de la tour."
         },
         {
             id: "delfino-15",
             episode: "Zone Aéroport",
-            description: "Prisonnier d'un bloc de glace à l'aéroport Delfino"
+            description: "Prisonnier d'un bloc de glace."
         },
         {
             id: "delfino-16",
-            episode: "Place Delfino",
-            description: "Arroser le X"
+            episode: "Zone Place",
+            description: "Arroser le X. La pièce bleue apparaît à l'emplacement de la suivante."
         },
         {
             id: "delfino-17",
-            episode: "Place Delfino",
-            description: "Arroser le X"
+            episode: "Zone Place",
+            description: "Arroser le X. La pièce bleue apparaît à l'emplacement de la précédente."
         },
         {
             id: "delfino-18",
-            episode: "Place Delfino (accessible après le premier épisode de la Gelato-les-flots)",
-            description: "Arroser le pianta bleu avec des champignons en feu dans son dos"
+            episode: "Zone Place",
+            description: "Arroser le Pianta bleu avec des champignons en feu."
         },
         {
             id: "delfino-19",
-            episode: "Place Delfino avec Yoshi",
-            description: "Derrière la barrière de lave Yoshi"
+            episode: "Zone Place (Yoshi)",
+            description: "Derrière la barrière nectar."
         },
         {
             id: "delfino-20",
-            episode: "Place Delfino avec Yoshi",
-            description: "Derrière la barrière de lave Yoshi"
+            episode: "Zone Place (Yoshi)",
+            description: "Derrière la barrière nectar."
         },
     ]
 };

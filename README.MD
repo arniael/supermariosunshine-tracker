@@ -19,7 +19,7 @@ Une version en ligne, hébergée par Github Pages, est disponible sur [sunshine-
 ---
 
 ## 🚀 Installation et Utilisation
-Clonez ce dépôt, téléchargez les fichiers ou récupérez juste la dernière [Release](https://github.com/justeunedev/supermariosunshine-tracker/releases/latest) en zip.
+Clonez ce dépôt, téléchargez les fichiers ou récupérez juste la dernière [Release](https://github.com/arniael/supermariosunshine-tracker/releases/latest) en zip.
 
 Ouvrez simplement index.html dans votre navigateur préféré (une fois les fichiers dézippés). Aucun serveur n'est requis, tout tourne en local.
 
@@ -28,9 +28,20 @@ Virustotal de la dernière release : [Rapport VirusTotal de la 1.0](https://www.
 ---
 
 ## 📜 Sources
-Screenshots et information : [Mario Wiki](https://www.mariowiki.com/Super_Mario_Sunshine) et [Mario Party Legacy](https://mariopartylegacy.com/guides/super-mario-sunshine/corona-mountain-blue-coins) (Mont Corona)
+Screenshots et information : [SuperSoluce](https://www.supersoluce.com/soluce/super-mario-sunshine-version-3d-all-stars/)
 
 Maps : [Branflakv](https://www.reddit.com/r/NintendoSwitch/comments/j56j95/blue_coin_maps_for_mario_sunshine/?tl=fr) et [Mario Party Legacy](https://mariopartylegacy.com/guides/super-mario-sunshine/corona-mountain-blue-coins) (Mont Corona)
+
+---
+
+## 🔄 Changelog
+Les modifications sont disponibles dans le fichier ["VERSION.MD"](https://github.com/arniael/supermariosunshine-tracker/blob/main/VERSION.MD)
+
+---
+
+## 📋 A venir
+* Ajout des soleils cachés
+* Meilleures indications
 
 ---
 

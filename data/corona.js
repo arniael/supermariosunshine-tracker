@@ -8,53 +8,53 @@ const coronaCoins = {
     coins: [
         {
             id: "corona-01",
-            episode: "Mont Corona",
+            episode: "Tous",
             description: "Sur le chemin"
         },
         {
             id: "corona-02",
-            episode: "Mont Corona",
-            description: "Dans la zone magma (où il y'a les nuages)"
+            episode: "Tous",
+            description: "Dans la zone précédant les nuages"
         },
         {
             id: "corona-03",
-            episode: "Mont Corona",
-            description: "Dans la zone magma (où il y'a les nuages)"
+            episode: "Tous",
+            description: "Dans la zone précédant les nuages"
         },
         {
             id: "corona-04",
-            episode: "Mont Corona",
-            description: "Dans la zone magma (où il y'a les nuages)"
+            episode: "Tous",
+            description: "Dans la zone précédant les nuages"
         },
         {
             id: "corona-05",
-            episode: "Mont Corona",
-            description: "Dans la zone magma (où il y'a les nuages)"
+            episode: "Tous",
+            description: "Dans la zone précédant les nuages"
         },
         {
             id: "corona-06",
-            episode: "Mont Corona",
-            description: "Dans la zone magma (où il y'a les nuages)"
+            episode: "Tous",
+            description: "Dans la zone précédant les nuages"
         },
         {
             id: "corona-07",
-            episode: "Mont Corona",
-            description: "Dans la zone magma (où il y'a les nuages)"
+            episode: "Tous",
+            description: "Dans la zone précédant les nuages"
         },
         {
             id: "corona-08",
-            episode: "Mont Corona",
-            description: "Dans la zone magma (où il y'a les nuages)"
+            episode: "Tous",
+            description: "Dans la zone précédant les nuages"
         },
         {
             id: "corona-09",
-            episode: "Mont Corona",
-            description: "Dans la zone magma (où il y'a les nuages)"
+            episode: "Tous",
+            description: "Dans la zone précédant les nuages"
         },
         {
             id: "corona-10",
-            episode: "Mont Corona",
-            description: "Dans la zone magma (où il y'a les nuages)"
+            episode: "Tous",
+            description: "Dans la zone précédant les nuages"
         },
     ]
 };
