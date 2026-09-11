@@ -1,53 +1,99 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Super Mario Sunshine Blue Coins Tracker</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="images/favicon.png">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Super Mario Sunshine Tracker</title>
+	<meta name="description" content="Tracker interactif pour Super Mario Sunshine pour suivre sa progression, trouver les pièces bleues et les soleils facilement !" />
+	<meta name="keywords" content="Super Mario Sunshine, tracker, pièces bleues, soleils, guide, 100%, logbook, complétion" />
+	<meta name="robots" content="index, follow" />
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" type="image/png" href="images/favicon.png">
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Super Mario Sunshine Tracker - Pièces Bleues et Soleils" />
+	<meta property="og:description" content="Le tracker interactif pour suivre la progression à 100% sur Super Mario Sunshine." />
+	<meta property="og:url" content="https://sunshine-tracker.arniael.eu/" />
+	<meta property="og:image" content="https://sunshine-tracker.arniael.eu/images/og.png" />
 </head>
 <body>
-    <header>
-        <img src="images/logo.png" alt="Logo Super Mario Sunshine" width=25%>
-        <h2>Tracker de Pièces Bleues</h1>
-        <div class="progress-container">
-            <div id="progress-bar" class="progress-bar"></div>
-            <span id="progress-text">0 / 240</span>
-        </div>
+	<header>
+		<img src="images/logo.png" alt="Logo Super Mario Sunshine" width=25%>
+		<h2>Tracker de Progression</h2>
+		
+		<div class="global-progress-section">
+			<div class="progress-box">
+				<h3>Pièces Bleues</h3>
+				<div class="progress-container">
+					<div id="blue-progress-bar" class="progress-bar"></div>
+					<span id="blue-progress-text">0 / 240</span>
+				</div>
+			</div>
+			
+			<div class="progress-box">
+				<h3>Soleils</h3>
+				<div class="progress-container">
+					<div id="shine-progress-bar" class="progress-bar shine-bar"></div>
+					<span id="shine-progress-text">0 / 120</span>
+				</div>
+			</div>
+		</div>
 
-        <div class="save-controls">
-            <button id="export-btn">💾 Exporter ma progression</button>
-            <label for="import-file" class="import-btn">📂 Importer ma progression</label>
-            <input type="file" id="import-file" accept=".json" style="display: none;">
-        </div>
-    </header>
+		<div class="save-controls">
+			<button id="help-btn">❓ Aide</button>
+			<button id="share-btn">🔗 Partager</button>
+			<button id="export-btn">💾 Exporter</button>
+			<label for="import-file" class="import-btn">📂 Importer</label>
+			<input type="file" id="import-file" accept=".json" style="display: none;">
+			<button id="about-btn">ℹ️ À propos</button>
+		</div>
 
-    <main id="app-container"></main>
+		<div class="tabs">
+			<button class="tab-btn active" data-target="blue-tab">Pièces Bleues</button>
+			<button class="tab-btn" data-target="shine-tab">Soleils</button>
+		</div>
+	</header>
+	
+	<main id="blue-tab" class="tab-content active"></main>
 
-    <div id="image-modal" class="modal">
-        <span class="close-modal">&times;</span>
-        <img id="modal-img" src="" alt="Image en grand">
-    </div>
+	<main id="shine-tab" class="tab-content"></main>
 
-    <script src="data/delfino.js"></script>
-    <script src="data/bianco.js"></script>
-    <script src="data/ricco.js"></script>
-    <script src="data/gelato.js"></script>
-    <script src="data/pinna.js"></script>
-    <script src="data/sirena.js"></script>
-    <script src="data/noki.js"></script>
-    <script src="data/pianta.js"></script>
-    <script src="data/corona.js"></script>
-    
-    <script src="app.js"></script>
-    <footer>
-        <p>Made with ❤️ by <a href="https://github.com/arniael" target="__blank">Arniael</a><br>Avec l'aide de Gemini 3.1 Pro</p>
-        <div class="sources">
-            <p><u>Sources</u><br>
-                Images Emplacement Pièces : <a href="https://www.supersoluce.com/soluce/super-mario-sunshine-version-3d-all-stars/" target="__blank">SuperSoluce</a><br>
-                Images Cartes : <a href="https://www.reddit.com/r/NintendoSwitch/comments/j56j95/blue_coin_maps_for_mario_sunshine/" target="__blank">Branflakv</a> et <a href="https://mariopartylegacy.com/guides/super-mario-sunshine/corona-mountain-blue-coins" target="__blank">Mario Party Legacy</a></p>
-        </div>
-    </footer>
+	<div id="image-modal" class="modal">
+		<span class="close-modal">&times;</span>
+		<img id="modal-img" src="" alt="Image en grand">
+	</div>
+	
+	<div id="custom-dialog" class="modal">
+		<div class="dialog-content">
+			<h3 id="dialog-title">Titre</h3>
+			<div id="dialog-message">Message</div>
+			<div class="dialog-buttons">
+				<button id="dialog-cancel-btn" class="dialog-btn secondary">Annuler</button>
+				<button id="dialog-confirm-btn" class="dialog-btn primary">OK</button>
+			</div>
+		</div>
+	</div>
+
+	<script src="data/delfino.js"></script>
+	<script src="data/bianco.js"></script>
+	<script src="data/ricco.js"></script>
+	<script src="data/gelato.js"></script>
+	<script src="data/pinna.js"></script>
+	<script src="data/sirena.js"></script>
+	<script src="data/noki.js"></script>
+	<script src="data/pianta.js"></script>
+	<script src="data/corona.js"></script>
+	<script src="data/shines.js"></script>
+	
+	<script src="app.js"></script>
+	<footer>
+		<p>Made with ❤️ by <a href="https://github.com/arniael" target="__blank">Arniael</a>
+		<br>Avec l'aide de Gemini 3.1 Pro</p>
+		<p>Code open source disponible sur <a href="https://github.com/arniael/supermariosunshine-tracker" target="__blank">Github</a></p>
+		<p>Si vous souhaitez soutenir ce projet, vous pouvez le partager et, si le coeur vous en dit, <a href="ko-fi.com/arniael" target="__blank">faire un don sur Ko-Fi</a>.</p>
+		<div class="sources">
+			<p><u>Sources</u><br>
+			Images : <a href="https://mariopartylegacy.com/guides/super-mario-sunshine-blue-coins-and-walkthrough" target="__blank">Mario Party Legacy</a></p>
+		</div>
+	</footer>
 </body>
 </html>
