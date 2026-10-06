@@ -35,7 +35,7 @@ const sirenaCoins = {
             id: "sirena-06",
             episode: "2 à 8",
             description: "Arroser une petite fresque entre les deux bassins."
-        }
+        },
 		{
             id: "sirena-07",
             episode: "1 à 6",
@@ -155,7 +155,7 @@ const sirenaCoins = {
             id: "sirena-30",
             episode: "7 et 8",
             description: "Effacer le M de la façade du troisième étage."
-        },
+        }
     ]
 };
 

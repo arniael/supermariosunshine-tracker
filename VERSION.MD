@@ -3,6 +3,9 @@ Code utilisé :
 [=] : Modification
 [-] : Retrait
 
+Version 2.1 - 06/10/2026
+[=] Pièces bleues Plage Sirena qui ne s'affichaient pas
+
 Version 2.0 - 11/09/2026
 /!\ Cette version change l'emplacement des pièces bleues. Les sauvegardes précédentes sont donc désormais erronées. Merci de récupérer la release 1.2 pour continuer à utiliser votre sauvegarde ou migrer manuellement /!\
 [+] Légère refonte graphique
